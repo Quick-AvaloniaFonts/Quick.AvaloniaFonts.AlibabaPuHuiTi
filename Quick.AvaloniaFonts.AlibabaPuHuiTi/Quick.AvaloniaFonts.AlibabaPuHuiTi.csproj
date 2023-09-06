@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <None Remove="Assets\Alibaba-PuHuiTi-Bold.ttf" />
+      <None Remove="Assets\Alibaba-PuHuiTi-Heavy.ttf" />
+      <None Remove="Assets\Alibaba-PuHuiTi-Light.ttf" />
+      <None Remove="Assets\Alibaba-PuHuiTi-Medium.ttf" />
+      <None Remove="Assets\Alibaba-PuHuiTi-Regular.ttf" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AvaloniaResource Include="..\Fonts\Alibaba-PuHuiTi-Bold.ttf">
+        <Link>Assets/Fonts/Alibaba-PuHuiTi-Bold.ttf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\Alibaba-PuHuiTi-Heavy.ttf">
+        <Link>Assets/Fonts/Alibaba-PuHuiTi-Heavy.ttf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\Alibaba-PuHuiTi-Light.ttf">
+        <Link>Assets/Fonts/Alibaba-PuHuiTi-Light.ttf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\Alibaba-PuHuiTi-Medium.ttf">
+        <Link>Assets/Fonts/Alibaba-PuHuiTi-Medium.ttf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\Alibaba-PuHuiTi-Regular.ttf">
+        <Link>Assets/Fonts/Alibaba-PuHuiTi-Regular.ttf</Link>
+      </AvaloniaResource>
+    </ItemGroup>
+
+</Project>
